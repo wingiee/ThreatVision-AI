@@ -1,0 +1,41 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and processed data
+data/
+dataset/
+datasets/
+processed/
+*.parquet
+
+# Large generated reports
+# Keep source code; exclude generated outputs by default
+reports/*.csv
+reports/*.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

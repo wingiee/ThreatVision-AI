@@ -1,0 +1,9 @@
+sample_id,prediction,confidence,risk_score,threat_level,anomaly_score,unknown_threat,detection_category,mitre_tactic,mitre_technique,mitre_id,recommendations,priority,immediate_action,long_term_action
+0,Benign,1.0,5.0,Medium,0.0415,False,Benign,None,None,N/A,No action required.,P3,Monitor activity.,Review firewall policies.
+1,Benign,1.0,5.0,Medium,0.0305,False,Benign,None,None,N/A,No action required.,P3,Monitor activity.,Review firewall policies.
+2,DDoS,1.0,9.0,Critical,0.655,False,Known Attack,Impact,Network Denial of Service,T1498,Enable rate limiting | Deploy DDoS mitigation services | Filter malicious traffic | Monitor bandwidth utilization,P1,Contain attack immediately.,Strengthen monitoring.
+3,DDoS,1.0,9.0,Critical,1.0,False,Known Attack,Impact,Network Denial of Service,T1498,Enable rate limiting | Deploy DDoS mitigation services | Filter malicious traffic | Monitor bandwidth utilization,P1,Contain attack immediately.,Strengthen monitoring.
+4,DoS,0.9998,5.0,Medium,0.739,False,Known Attack,Unknown,Unknown,N/A,Manual Investigation Required,P3,Monitor activity.,Review firewall policies.
+5,DoS,0.9999,5.0,Medium,0.0,False,Known Attack,Unknown,Unknown,N/A,Manual Investigation Required,P3,Monitor activity.,Review firewall policies.
+6,Port Scan,0.9998,5.0,Medium,0.0284,False,Known Attack,Discovery,Network Service Discovery,T1046,Close unused ports | Restrict external access | Monitor scanning attempts | Enable firewall logging,P3,Monitor activity.,Review firewall policies.
+7,Port Scan,1.0,5.0,Medium,0.0982,False,Known Attack,Discovery,Network Service Discovery,T1046,Close unused ports | Restrict external access | Monitor scanning attempts | Enable firewall logging,P3,Monitor activity.,Review firewall policies.
